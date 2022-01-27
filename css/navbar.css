@@ -10,7 +10,7 @@ a {
     text-decoration: none;
     color: var(--text-color);
 }
-.navbar {
+.navbar_box {
     color: rgb(97, 97, 97);
     display: flex;
     justify-content: space-between;
@@ -20,23 +20,29 @@ a {
     font-family: 'Source Sans Pro', sans-serif;
 }
 .navbar__logo {
-   font-size: 24px;
-   color: var(--text-color);
+    font-size: 24px;
+    color: var(--text-color);
+    padding-bottom: 10px;
 }
 .navbar__logo i {
    color: var(--accent-color);
 }
+.navbar__logo a:hover{
+    color:orange;
+    text-decoration: none;
+ }
 .navbar__menu {
+    width: 80%;
     display: flex;
-    list-style: none;
+    justify-content: space-around;
     padding-left: 0;
 }
 .navbar__menu li {
     padding: 8px 12px;
 }
-.navbar__menu li:hover {
-    background-color: var(--accent-color);
-    border-radius: 4px;
+.navbar__menu li a:hover {
+    color:orange;
+    text-decoration: none;
 }
 .navbar__sns {
     list-style: none;
