@@ -135,3 +135,28 @@ img {
   width: 100%;
   height: auto;
 }
+.goSchool{
+  border : 1px solid none; 
+  padding: 15px; 
+  font-weight: 600;  
+  border-radius: 20px; 
+  background-color: rgb(255, 244, 215);
+}
+.goSchool:hover{
+  color : orange;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+.goLikeLion{
+  border : 1px solid none; 
+  padding: 10px; 
+  font-weight: 600;  
+  border-radius: 20px; 
+  background-color: rgb(255, 249, 231);
+}
+.goLikeLion:hover{
+  color : orange;
+  text-decoration: none;
+  text-decoration-line: none;
+}
