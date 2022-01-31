@@ -62,7 +62,8 @@ function addAnswer(answerText, qIdx, idx){
     }
     setTimeout(() => {
       var target = qnaList[qIdx].a[idx].type;
-      for(let i = 0; i < target.length; i++){
+
+      for(let i = 0; i < 8; i++){
         select[target[i]] += 1;
       }
 
