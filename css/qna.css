@@ -22,10 +22,12 @@
 }
 .answerList:link{
   color:black; 
+  text-decoration: none;
 }
 .answerList:hover, .answerList:focus {
   background-color: rgb(240, 195, 166);
   color: whitesmoke;
+  text-decoration: none;
 }
 
 .status {
