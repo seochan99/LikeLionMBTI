@@ -2,8 +2,8 @@ const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 
-const endPoint = 5;
-const select = [0, 0, 0, 0, 0];
+const endPoint = 8;
+const select = [0, 0, 0, 0,0];
 
 function calResult(){
   console.log(select);
