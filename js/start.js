@@ -2,8 +2,8 @@ const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 
-const endPoint = 5;
-const select = [0, 0, 0, 0, 0];
+const endPoint = 8;
+const select = [0, 0, 0, 0,0];
 
 function calResult(){
   console.log(select);
@@ -62,7 +62,8 @@ function addAnswer(answerText, qIdx, idx){
     }
     setTimeout(() => {
       var target = qnaList[qIdx].a[idx].type;
-      for(let i = 0; i < target.length; i++){
+
+      for(let i = 0; i < 8; i++){
         select[target[i]] += 1;
       }
 
