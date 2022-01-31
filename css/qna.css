@@ -19,6 +19,7 @@
   border: 0px;
   font-size: 20px;
   padding : 5px 15px;
+  color : black;
 }
 .answerList:link{
   color:black; 
