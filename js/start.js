@@ -104,3 +104,12 @@ function begin(){
     goNext(qIdx);
   }, 450);
 }
+
+// function countTest(){
+//   var resultCount = document.getElementById('countTestResult'); 
+
+//   var num = resultCount.innerText; 
+//   num = parseInt(num)+1; 
+
+//   resultCount.innerText = num;
+// }
