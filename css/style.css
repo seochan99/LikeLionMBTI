@@ -163,18 +163,24 @@ img {
 }
 li{list-style: none;}
 
+.slide_div{
+  width: 1500px;
+  margin: 0 auto;
+  height: 500px;
+}
 .slider_wrapper{
   position: relative;
-  width: 2000px;
+  width: 1500px;
   margin: 0 auto;
-  height: 350px;
+  height: 250px;
   overflow: hidden;
 }
 .slides{
   position: absolute;
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   left: 0; top: 0;
-  width: 304*8+30*8+'px';
+  width: 200*42+30*42+'px';
   transition: left 0.5s ease-out;
 }
 .slides li{
@@ -184,15 +190,44 @@ li{list-style: none;}
 
 .controls{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .controls span{
-  background :rgb(255, 240, 191);
+  background :rgba(105, 105, 103, 0.274);
   color:rgb(15, 15, 5);
   font-weight:bold;
   padding: 10px 20px;
   margin: 0 10px;
-
+  border-radius: 10%;
 }
 .controls span.prev{right:calc(100% + 50%);}
 .controls span.next{left:calc(100% + 50%);}
+
+.wap{
+  width: 2000px;
+  height: 400px;
+  margin: 0 auto;
+}
+.box1{
+  float: left;
+  width: 30px;
+  margin-top: 80px;
+  margin-right: 10px;
+}
+.box2{
+  float: left;
+  width: 1700px;
+  margin: 5px;
+}
+.univ{
+  width: 170px;
+  height: 170px;
+}
+.li{
+  width: 160px;
+  height: 200px;
+  text-align: center;
+}
+.jae{
+  margin-top: 5px ;
+}
