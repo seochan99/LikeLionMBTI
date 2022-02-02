@@ -16,3 +16,9 @@
 .show{
     display:block;
 }
+.school>a{
+    text-decoration: none;
+}
+.school a:hover{
+    color: orange;
+}
