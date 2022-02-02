@@ -8,7 +8,11 @@
     margin-right: 5%;
     font-size: large;
 }
-.school_container > div{
+.school{
     margin-bottom: 20px;
     padding: 20px;
+    display: none;
+}
+.show{
+    display:block;
 }

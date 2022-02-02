@@ -44,203 +44,200 @@
         <section class="service-wrapper py-3" style="transform: translateY(-15px);">
                 <div class="service-tag">
                         <div class="col-md-12">
-                                <ul class="nav d-flex justify-content-center">
+                                <ul class="nav d-flex justify-content-center category_container">
                                         <li class=" mx-lg-4 category" id=".전체" style=" border-radius: 20px; background-color: #dddddd;">
-                                                <a class=" nav-link " href="#" data-filter=".project" style=" font-weight: 500;">전체</a>
+                                                <a class=" nav-link active" href="#" data-filter=".project" style=" font-weight: 500;" onclick="filterSelection('all')">전체</a>
                                         </li>
                                         <li class="mx-lg-4 category" id.=".서울" style="border-radius: 20px; background-color: #dddddd;">
-                                                <a class="nav-link"style="font-weight: 500;" href="#" data-filter=".서울">서울</a>
+                                                <a class="nav-link"style="font-weight: 500;" href="#" data-filter=".서울" onclick="filterSelection('서울')">서울</a>
                                         </li>
                                         <li class="mx-lg-4 category" id.=".경기" style="border-radius: 20px; background-color: #dddddd;">
-                                                <a class="nav-link " style=" font-weight: 500;"href="#" data-filter=".경기">경기</a>
+                                                <a class="nav-link" style=" font-weight: 500;"href="#" data-filter=".경기" onclick="filterSelection('경기')">경기</a>
                                         </li>
                                         <li class="mx-lg-4 category" id.=".강원" style="border-radius: 20px; background-color: #dddddd;">
-                                                <a class="nav-link" style=" font-weight: 500;"href="#" data-filter=".강원">강원</a>
+                                                <a class="nav-link" style=" font-weight: 500;"href="#" data-filter=".강원" onclick="filterSelection('강원')">강원</a>
                                         </li>
                                         <li class="mx-lg-4 category" id.=".충청" style="border-radius: 20px; background-color: #dddddd;">
-                                                <a class="nav-link" style=" font-weight: 500;"href="#" data-filter=".충청">충청</a>
+                                                <a class="nav-link" style=" font-weight: 500;"href="#" data-filter=".충청" onclick="filterSelection('충청')">충청</a>
                                         </li>
                                         <li class="mx-lg-4 category" id.=".경상" style="border-radius: 20px; background-color: #dddddd;">
-                                                <a class="nav-link" style=" font-weight: 500;"href="#" data-filter=".경상">경상</a>
+                                                <a class="nav-link" style=" font-weight: 500;"href="#" data-filter=".경상" onclick="filterSelection('경상')">경상</a>
                                         </li>
                                         <li class="mx-lg-4 category" id.=".전라" style="border-radius: 20px; background-color: #dddddd;">
-                                                <a class="nav-link" style=" font-weight: 500;"href="#" data-filter=".전라">전라</a>
-                                        </li>
-                                        <li class="mx-lg-4 category" id.=".제주" style="border-radius: 20px; background-color: #dddddd;">
-                                                <a class="nav-link" style=" font-weight: 500;"href="#" data-filter=".제주">제주</a>
+                                                <a class="nav-link" style=" font-weight: 500;"href="#" data-filter=".전라" onclick="filterSelection('전라')">전라</a>
                                         </li>
                                 </ul>
                         </div>
                 </div>
         </section>
 
-        <section class="py-4 overflow-hidden d-none d-sm-block">
+        <section class="py-4 overflow-hidden d-sm-block">
                 <div class="school_container">
-                        <div class=".강원">
+                        <div class="school 강원">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 강원대학교(춘천)
                         </div>
-                        <div class=".경상">
+                        <div class="school 경상">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 경북대학교
                         </div>
-                        <div class=".경상">
+                        <div class="school 경상">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 경상대학교
                         </div>
-                        <div class=".경상">
+                        <div class="school 경상">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 계명대학교
                         </div>
-                        <div class=".충청">
+                        <div class="school 충청">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 고려대학교(세종)
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 고려대학교(안암)
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 광운대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 국민대학교
                         </div>
-                        <div class=".경상">
+                        <div class="school 경상">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 금오공과대학교(양호)
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 덕성여자대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 동국대학교(서울)
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 동덕여자대학교
                         </div>
-                        <div class=".경기">
+                        <div class="school 경기">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 명지대학교(자연)
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 삼육대학교
                         </div>
-                        <div class="school .서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 상명대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 서강대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 서울대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 서울여자대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 성공회대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 성균관대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 성신여자대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 숙명여자대학교
                         </div>
-                        <div class=".전라">
+                        <div class="school 전라">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 순천대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 숭실대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 연세대학교(신촌)
                         </div>
-                        <div class=".경상">
+                        <div class="school 경상">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 영남대학교
                         </div>
-                        <div class=".경기">
+                        <div class="school 경기">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 을지대학교(성남)
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 이화여자대학교
                         </div>
-                        <div class=".경기">
+                        <div class="school 경기">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 인천대학교
                         </div>
-                        <div class=".경기">
+                        <div class="school 경기">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 인하대학교
                         </div>
-                        <div class=".전라">
+                        <div class="school 전라">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 전남대학교(광주)
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 중앙대학교
                         </div>
-                        <div class=".충청">
+                        <div class="school 충청">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 충북대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 한국외국어대학교(서울)
                         </div>
-                        <div class=".경기">
+                        <div class="school 경기">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 한국외국어대학교(글로벌)
                         </div>
-                        <div class=".경기">
+                        <div class="school 경기">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 한국항공대학교
                         </div>
-                        <div class=".충청">
+                        <div class="school 충청">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 한밭대학교
                         </div>
-                        <div class=".충청">
+                        <div class="school 충청">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 한서대학교(서산)
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 한성대학교
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 한양대학교(서울)
                         </div>
-                        <div class=".경기">
+                        <div class="school 경기">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 한양대학교(에리카)
                         </div>
-                        <div class=".서울">
+                        <div class="school 서울">
                                 <img src = "https://likelion.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0205205c-42bf-4603-9b18-196abd487956%2F1.png?table=block&id=b8a7a735-c523-410f-9f3d-eda55e4271a0&spaceId=c69962b0-3951-485b-b10a-5bb29576bba8&width=250&userId=&cache=v2" style="width: 100%;">
                                 홍익대학교
                         </div>
@@ -277,6 +274,6 @@
                 </div>
                 </footer>
         <script src="/js/navbar.js" defer></script>
-        
+        <script src="/js/filter.js"></script>    
 </body>
 </html>
