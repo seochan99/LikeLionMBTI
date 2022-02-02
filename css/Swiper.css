@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+
+.slider_wrapper{
+  position: relative;
+  width: 2000px;
+  margin: 0 auto;
+  height: 350px;
+  overflow: hidden;
+}
+.slides{
+  position: absolute;
+  margin-top: 50px;
+  left: 0; top: 0;
+  width: 304*8+30*8+'px';
+  transition: left 0.5s ease-out;
+}
+.slides li{
+  float: left;
+  margin-right: 30px;
+}
+
+.controls{
+  text-align: center;
+  margin-top: 50px;
+}
+.controls span{
+  background :rgb(250, 237, 90);
+  color:rgb(15, 15, 5);
+  padding: 10px 20px;
+  margin: 0 10px;
+
+}
+.controls span.prev{right:calc(100% + 50%);}
+.controls span.next{left:calc(100% + 50%);}
+
