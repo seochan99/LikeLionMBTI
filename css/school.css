@@ -22,3 +22,17 @@
 .school a:hover{
     color: orange;
 }
+.categoryTop:active, .categoryTop:hover{
+    color: whitesmoke;
+    background-color: rgb(255, 216, 143);
+    border-radius: 20px;
+}
+.categoryTop:link{
+    color: whitesmoke;
+}
+
+
+.categoryEach{
+    border-radius: 20px;
+    background-color: #fceec8;
+}
