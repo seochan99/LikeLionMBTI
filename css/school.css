@@ -36,3 +36,10 @@
     border-radius: 20px;
     background-color: #fceec8;
 }
+@media (max-width:1000px){
+    .school_container{
+        font-size: 0.3rem;
+        width: 90%;
+        margin-bottom: 210px;
+    }
+}
