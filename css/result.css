@@ -35,18 +35,20 @@
   border: none;
   font-family: GmarketSansMedium;
 }
-.resultIntro{
+.resultInro{
   font-size:1.5em;
   color: #868686;
 }
-.resultDescTitle1{
+.resultDescTitle1, .resultDescTitle2, .resultDescTitle3{
   font-size: 1.5em; 
+  font-family: GmarketSansMedium;
 }
-.resultDesc1{
+.resultDesc1, .resultDesc2, .resultDesc3{
   margin-top: 10px;
   margin-bottom: 14px;
   font-size: 1em;
   color: #868686;
+  font-family: GmarketSansMedium;
 }
 
 @media (max-width: 1000px){
@@ -56,16 +58,16 @@
     border: none;
     font-family: GmarketSansMedium;
   }
-  .resultIntro{
-    font-size: 1.3em;
+  .resultInro{
+    font-size: 1em;
     color: #868686;
     font-family: GmarketSansMedium;
   }
-  .resultDescTitle1{
+  .resultDescTitle1, .resultDescTitle2, .resultDescTitle3{
     font-family: GmarketSansMedium;
     font-size: 0.9em; 
   }
-  .resultDesc1{
+  .resultDesc1, .resultDesc2, .resultDesc3{
     font-size: 0.7em;
     font-family: GmarketSansMedium;
     color: #868686;

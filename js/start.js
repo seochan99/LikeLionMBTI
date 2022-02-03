@@ -34,13 +34,13 @@ function setResult(){
 
   const resultDesc2 = document.querySelector('.resultDesc2');
   const resultDescTitle2 = document.querySelector('.resultDescTitle2');
-  resultDescTitle2.innerHTML = infoList[point].desc2;
-  resultDesc2.innerHTML = infoList[point].descTitle2;
+  resultDescTitle2.innerHTML = infoList[point].descTitle2;
+  resultDesc2.innerHTML = infoList[point].desc2;
 
   const resultDesc3 = document.querySelector('.resultDesc3');
   const resultDescTitle3 = document.querySelector('.resultDescTitle3');
-  resultDescTitle3.innerHTML = infoList[point].desc3;
-  resultDesc3.innerHTML = infoList[point].descTitle3;
+  resultDescTitle3.innerHTML = infoList[point].descTitle3;
+  resultDesc3.innerHTML = infoList[point].desc3;
 }
 
 function goResult(){
