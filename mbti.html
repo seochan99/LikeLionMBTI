@@ -30,7 +30,6 @@
 
 </head>
 
-
 <body>
         <nav class="navbar">
                 <div class="navbar__logo">
@@ -38,7 +37,7 @@
                         <img src="https://avatars.githubusercontent.com/u/19548196?s=200&v=4" style="width: 18%; border-radius: 15px; ">
                         <a href="index.html">likelion</a>
                 </div>
-                <ul class="navbar__menu" >
+                <ul class="navbar__menu" id="tabs">
                         <li><a class="navbarFont" href="likelionAbout.html">About.</a></li>
                         <li><a class="navbarFont" href="mbti.html">멋사 성향 TEST.</a></li>
                         <li><a class="navbarFont" href="school.html">참여대학.</a></li>
@@ -47,6 +46,9 @@
                 <a href="#" class="navbar__toggleBtn"> <i class="fas fa-bars"></i> </a>
         </nav>
   <div class="container">
+    <!-- <div class="resultname">
+      프론트엔드 개발자형
+    </div> -->
     <section id="main" class="mx-auto my-5 py-5 px-4">
       <h1 class="jalan testBoxTitle">나의 <span class="jalan" style="color: rgb(255, 174, 24);">개발자 </span>유형은? </h1>
       <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
@@ -78,16 +80,40 @@
 
       </div>
     </section>
-    <section id="result" class="mx-auto my-5 py-5 px-4">
-      <h1>나의 결과는 ?!</h1>
-      <div class="resultname">
 
+    <section id="result" class="mx-auto my-5 py-5 px-4">
+      <h2 style="font-family: yg-jalnan;">나의 결과는 ?!</h2>
+      <div style="font-family: GmarketSansMedium;">
+
+        <div class="resultInro">
+
+        </div>
+        <div class="resultname">
+
+        </div>
       </div>
       <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
 
       </div>
       <div class="resultDesc">
-        
+        <div class="resultDescTitle1">
+
+        </div>
+        <div class="resultDesc1">
+
+        </div>
+        <div class="resultDescTitle2">
+
+        </div>
+        <div class="resultDesc2">
+          
+        </div>
+        <div class="resultDescTitle3">
+
+        </div>
+        <div class="resultDesc3">
+          
+        </div>
 
       </div>
       <div style="text-align: center; margin-top: 30px;">
@@ -106,6 +132,7 @@
   <script src="./js/start.js" charset="utf-8"></script>
   <script src="./js/share.js" charset="utf-8"></script>
   <script src="/js/navbar.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  
 </body>
-
 </html>

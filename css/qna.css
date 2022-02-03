@@ -31,8 +31,8 @@
 }
 .answerList:hover, .answerList:focus {
   /* background-color: rgb(252, 206, 120); */
-  background-color: #FDCD77;
-  color: whitesmoke;
+  background-color: #FFD966;
+  color: rgb(0, 0, 0);
   border: none;
   text-decoration: none;
 }
@@ -76,11 +76,11 @@
   /* #FC9F27 */
   
   /* Old browsers */
-  background: -moz-linear-gradient(top, #ffe5c3 0%, #ffbf6c 52%, #FC9F27 100%);
+  background: -moz-linear-gradient(top, #FC9F27 0%, #FC9F27 52%, #FC9F27 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffe5c3 0%, #ffbf6c 52%, #FC9F27 100%);
+  background: -webkit-linear-gradient(top, #FC9F27 0%, #FC9F27 52%, #FC9F27 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #fcdfb9 0%, #ffc06d 52%, #FC9F27 100%);
+  background: linear-gradient(to bottom, #FC9F27 0%, #FC9F27 52%, #ffa632 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#febbbb', endColorstr='#ff5c5c', GradientType=0);
   /* IE6-9 */
@@ -92,4 +92,9 @@
   color : #A6A6A6;
   font-size: 1.2em;
   margin-bottom: 10px;
+}
+.resultBtn{
+  text-align: center; 
+  margin-top: 20px; 
+  display: inline;
 }
