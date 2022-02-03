@@ -88,7 +88,8 @@
 .countStatus{
   font-family: yg-jalnan;
   text-align: center;
-  color: #868686;
+  /* color: #868686; */
+  color : #A6A6A6;
   font-size: 1.2em;
   margin-bottom: 10px;
 }
