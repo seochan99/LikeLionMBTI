@@ -13,6 +13,9 @@ function calResult(){
 
 function setResult(){
   let point = calResult();
+  const resultNameIntro = document.querySelector('.resultInro');
+  resultNameIntro.innerHTML = infoList[point].nameIntro;
+
   const resultName = document.querySelector('.resultname');
   resultName.innerHTML = infoList[point].name;
 
@@ -24,8 +27,20 @@ function setResult(){
   resultImg.classList.add('img-fluid');
   imgDiv.appendChild(resultImg);
 
-  const resultDesc = document.querySelector('.resultDesc');
-  resultDesc.innerHTML = infoList[point].desc;
+  const resultDesc1 = document.querySelector('.resultDesc1');
+  const resultDescTitle1 = document.querySelector('.resultDescTitle1');
+  resultDescTitle1.innerHTML = infoList[point].descTitle1;
+  resultDesc1.innerHTML = infoList[point].desc1;
+
+  const resultDesc2 = document.querySelector('.resultDesc2');
+  const resultDescTitle2 = document.querySelector('.resultDescTitle2');
+  resultDescTitle2.innerHTML = infoList[point].descTitle2;
+  resultDesc2.innerHTML = infoList[point].desc2;
+
+  const resultDesc3 = document.querySelector('.resultDesc3');
+  const resultDescTitle3 = document.querySelector('.resultDescTitle3');
+  resultDescTitle3.innerHTML = infoList[point].descTitle3;
+  resultDesc3.innerHTML = infoList[point].desc3;
 }
 
 function goResult(){

@@ -12,11 +12,13 @@
 
 .resultDesc{
   font-size: 20px;
+  font-family: GmarketSansMedium;
 }
 
+
 .kakao{
-  color: white;
-  background-color: #FEE500;
+  color: rgb(0, 0, 0);
+  background-color: #ffe600;
   font-size: 20px;
   border: 0px;
   border-radius: 20px;
@@ -25,4 +27,49 @@
 .kakao:hover, .kakao:focus {
   background-color: whitesmoke;
   color: #FEE500;
+}
+
+.resultname{
+  margin-top: 10px;
+  font-size: 2em; 
+  border: none;
+  font-family: GmarketSansMedium;
+}
+.resultInro{
+  font-size:1.5em;
+  color: #868686;
+}
+.resultDescTitle1, .resultDescTitle2, .resultDescTitle3{
+  font-size: 1.5em; 
+  font-family: GmarketSansMedium;
+}
+.resultDesc1, .resultDesc2, .resultDesc3{
+  margin-top: 10px;
+  margin-bottom: 14px;
+  font-size: 1em;
+  color: #868686;
+  font-family: GmarketSansMedium;
+}
+
+@media (max-width: 1000px){
+  .resultname{
+    margin-top: 6px;
+    font-size: 1.5em; 
+    border: none;
+    font-family: GmarketSansMedium;
+  }
+  .resultInro{
+    font-size: 1em;
+    color: #868686;
+    font-family: GmarketSansMedium;
+  }
+  .resultDescTitle1, .resultDescTitle2, .resultDescTitle3{
+    font-family: GmarketSansMedium;
+    font-size: 0.9em; 
+  }
+  .resultDesc1, .resultDesc2, .resultDesc3{
+    font-size: 0.7em;
+    font-family: GmarketSansMedium;
+    color: #868686;
+  }
 }

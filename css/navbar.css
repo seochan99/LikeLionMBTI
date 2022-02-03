@@ -94,3 +94,9 @@ a {
             display: flex;
     }
 }
+.on{
+    color:orange;
+}
+.on:hover{
+    color: #868686;
+}
