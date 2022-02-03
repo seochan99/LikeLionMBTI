@@ -193,11 +193,11 @@ li{list-style: none;}
 .slide_div{
   width: 1500px;
   margin: 0 auto;
-  height: 500px;
+  height: 300px;
 }
 .slider_wrapper{
   position: relative;
-  width: 1500px;
+  width: 1580px;
   margin: 0 auto;
   height: 250px;
   overflow: hidden;
@@ -208,6 +208,7 @@ li{list-style: none;}
   margin-bottom: 25px;
   left: 0; top: 0;
   width: 200*42+30*42+'px';
+  height: 250px;
   transition: left 0.5s ease-out;
 }
 .slides li{
@@ -218,14 +219,16 @@ li{list-style: none;}
 .controls{
   text-align: center;
   margin-top: 25px;
+  border-radius: 10%;
+  background :rgba(105, 105, 103, 0.274);
 }
 .controls span{
-  background :rgba(105, 105, 103, 0.274);
+  
   color:rgb(15, 15, 5);
   font-weight:bold;
   padding: 10px 20px;
-  margin: 0 10px;
-  border-radius: 10%;
+  margin-top: 10px;
+  
 }
 .controls span.prev{right:calc(100% + 50%);}
 .controls span.next{left:calc(100% + 50%);}
@@ -234,30 +237,64 @@ li{list-style: none;}
   width: 2000px;
   height: 400px;
   margin: 0 auto;
+  
 }
 .box1{
   float: left;
-  width: 30px;
+  width: 100px;
   margin-top: 80px;
-  margin-right: 10px;
+  margin-left: 30px;
 }
 .box2{
   float: left;
-  width: 1700px;
-  margin: 5px;
+  width: 1600px;
+  margin-right: 30px;
+  
 }
 .univ{
   width: 170px;
   height: 170px;
 }
 .li{
-  width: 160px;
+  width: 200px;
   height: 200px;
   text-align: center;
 }
 .jae{
   margin-top: 5px ;
 }
+
+.laquCT {
+  margin: 30px auto 0px;
+  width: 70%;
+}
+.wap2{
+  width: 2000px;
+  height: 300px;
+  margin: 0 auto;
+  margin-left: 100px;
+}
+.box3{
+  float: left;
+  width: 250px;
+  margin: auto;
+  margin-right: 20px;
+}
+.box4{
+  float: left;
+  width: 1000px;
+  margin: 50px;
+  margin: auto;
+  
+}
+.univ1{
+  width: 220px;
+  height: 220px;
+}
+.founded{
+  font-size: 30px;
+  font-weight: bold;
+}
 a.check{
-  color:orange;
+  color: orange;
 }
