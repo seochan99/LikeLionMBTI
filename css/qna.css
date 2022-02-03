@@ -3,7 +3,7 @@
 }
 
 .qBox {
-  background-color: rgb(250, 250, 250);
+  
   text-align: center;
   border-radius: 20px;
   font-size: 24px;
@@ -28,7 +28,7 @@
 .answerList:hover, .answerList:focus {
   background-color: rgb(240, 195, 166);
   color: whitesmoke;
-  text-decoration: none;ㅋ
+  text-decoration: none;
 }
 
 .status {
@@ -40,7 +40,7 @@
 
 .statusBar {
   height: 100%;
-  border-radius: 20px;
+  border-radius: 7px;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+52,ff5c5c+100;Red+3D+%231 */
   background: #ffd4d4;
   /* Old browsers */
@@ -52,4 +52,10 @@
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#febbbb', endColorstr='#ff5c5c', GradientType=0);
   /* IE6-9 */
+}
+.countStatus{
+  font-family: yg-jalnan;
+  text-align: center;
+  color: #868686;
+  font-size: 1.2em;
 }
