@@ -30,6 +30,27 @@
 
 </head>
 
+<style>
+  .jalan{
+    font-family:yg-jalnan;
+  }  
+  .startButton{
+    padding: 13px 50px; 
+    border: 3px solid orange;
+    color: orange;
+    border-radius: 8px;
+  }
+  .startButton:hover, .startButton:active{
+    background-color: orange;
+    color: whitesmoke;
+    border: 4px solid orange;
+    border-radius: 8px;
+  }
+  .Gmarket{
+    font-family:GmarketSansLight;
+  }
+  </style>
+
 <body>
         <nav class="navbar">
                 <div class="navbar__logo">
@@ -38,25 +59,27 @@
                         <a href="index.html">likelion</a>
                 </div>
                 <ul class="navbar__menu" >
-                        <li><a href="likelionAbout.html">About</a></li>
-                        <li><a href="mbti.html">TEST</a></li>
-                        <li><a href="school.html">참여대학</a></li>
-                        <li><a href="story.html">창업 Stroy</a></li>
+                        <li><a class="navbarFont" href="likelionAbout.html">About.</a></li>
+                        <li><a class="navbarFont" href="mbti.html">멋사 성향 TEST.</a></li>
+                        <li><a class="navbarFont" href="school.html">참여대학.</a></li>
+                        <li><a class="navbarFont" href="story.html">창업 Stroy.</a></li>
                 </ul>
                 <a href="#" class="navbar__toggleBtn"> <i class="fas fa-bars"></i> </a>
         </nav>
   <div class="container">
     <section id="main" class="mx-auto my-5 py-5 px-4">
-      <h1>나의 멋사성향을 한번 확인해볼까요?</h1>
+      <h1 class="jalan">나의 <span class="jalan" style="color: rgb(255, 174, 24);">개발자 </span>유형은? </h1>
       <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
         <img src="./img/main.png" alt="mainImage" class="img-fluid">
       </div>
-      <p>
-        
-        멋사 성향을 확인할 수 있는 TEST입니다 !<br>
-        아래 시작하기 버튼을 눌러 시작해 주십시오.
+      <p class="Gmarket">
+      
+        동국대학교 멋쟁이 사자처럼에서 제작한<br>
+        개발자 성향 TEST 입니다!
+        <br><br>
+        아래 시작하기 버튼을 눌러주세요!
       </p>
-      <button type="button" class="btn btn-outline-danger mt-3" style="padding: 18px 40px;" onclick="js:begin()">시작하기</button>
+      <button type="button" class="jalan btn mt-3 startButton" onclick="js:begin()">시작하기</button>
       <!-- js:countTest()
       <div id="countTestResult">0</div> -->
     </section>

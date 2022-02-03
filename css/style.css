@@ -3,6 +3,24 @@
 @import "background.css";
 @import "slide.css";
 @import "school.css";
+
+
+/* 여기어때 잘난체 */
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* G마켓 산스 TTF */
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 *{
     font-family: 'Noto Sans KR', sans-serif;
     /* font-family: 'Jua', sans-serif; */
