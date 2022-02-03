@@ -116,7 +116,6 @@
         <section class="py-4 overflow-hidden d-block d-sm-none">
                 
         </section>
-                
         <script>
                 var slides = document.querySelector('.slides'),
                         slide = document.querySelectorAll('.slides li'),
@@ -126,9 +125,9 @@
                         slideWidth = 200,
                         slideMargin =30,
                         nextBtn = document.querySelector('.next');
-        
+
                         slides.style.width = (slideWidth+slideMargin)*slideCount +'px';
-        
+
                         function moveSlide(num){
                         slides.style.left= -num*230+'px';
                         currentIdx = num;
@@ -149,9 +148,74 @@
                         });
         </script>
         
-<div>
-        창업스토리
-</div>
+        <div>
+                창업스토리
+        </div>
+        <section class="py-4 overflow-hidden d-none d-sm-block">
+                <div class="wap">
+                        <div class="box1">
+                                <button class="controls">
+                                        <span class="prev">prev</span>
+                                </button>
+                        </div>
+                        <div class="box2">
+                                <div class="slide_div">
+                                        <div class = "slider_wrapper">
+                                                <ul class="slides">
+                                                        <li class="li"><img class="univ" src="./img/founded/눈누(출처_눈누).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">눈누</h5></li>
+                                                        <li class="li"><img class="univ" src="./img/founded/드리머리2(출처_드리머리).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">드리머리2</h5></li>
+                                                        <li class="li"><img class="univ" src="./img/founded/비프로일레븐(출처_비프로일레븐).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">비프로일레븐</h5></li>
+                                                        <li class="li"><img class="univ" src="./img/founded/센트비(출처_센트비CI).jpeg" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">센트비</h5></li>
+                                                        <li class="li"><img class="univ" src="./img/founded/슬리드(출처_슬리드).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">슬리드</h5></li>
+                                                        <li class="li"><img class="univ" src="./img/founded/윙잇(출처_윙잇).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">윙잇</h5></li>
+                                                        <li class="li"><img class="univ" src="./img/founded/인포크(출처_인포크).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">인포크</h5></li>
+                                                        <li class="li"><img class="univ" src="./img/founded/자소설닷컴2(출처_자소설닷컴).jpg" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">자소설닷컴2</h5></li>
+                                                        <li class="li"><img class="univ" src="./img/founded/천명(출처_천명).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">천명</h5></li>
+                                                        <li class="li"><img class="univ" src="./img/founded/쿼타북(출처_쿼타북).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">쿼타북</h5></li>
+                                                        <li class="li"><img class="univ" src="./img/founded/눈누(출처_눈누).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">탈잉</h5></li>
+                                                        <li class="li"><img class="univ" src="./img/founded/티클(출처_티클).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">티클</h5></li>
+                                                </ul>
+                                        </div>           
+                                </div>
+                        </div>
+                        <div class="box1">
+                                <button class="controls">
+                                        <span class="next">next</span>
+                                </button>
+                        </div> 
+                </div>
+        </section>
+        <script>
+                var slides = document.querySelector('.slides'),
+                        slide = document.querySelectorAll('.slides li'),
+                        currentIdx = 0,
+                        slideCount = slide.length,
+                        prevBtn = document.querySelector('.prev'),
+                        slideWidth = 200,
+                        slideMargin =30,
+                        nextBtn = document.querySelector('.next');
+
+                        slides.style.width = (slideWidth+slideMargin)*slideCount +'px';
+
+                        function moveSlide(num){
+                        slides.style.left= -num*230+'px';
+                        currentIdx = num;
+                        };
+                        nextBtn.addEventListener('click',function(){
+                        if(currentIdx < slideCount-4){
+                                moveSlide(currentIdx+3);
+                        }else{
+                                moveSlide(0);
+                        }
+                        })
+                        prevBtn.addEventListener('click',function(){
+                        if(currentIdx>0){
+                                moveSlide(currentIdx-4);
+                        }else{
+                                moveSlide(slideCount-3);
+                        }
+                        });
+        </script>
 
 
 <!-- 개발자 section  -->
