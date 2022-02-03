@@ -49,7 +49,6 @@ function addAnswer(answerText, qIdx, idx){
   answer.classList.add('py-3');
   answer.classList.add('mx-auto');
   answer.classList.add('fadeIn');
-
   a.appendChild(answer);
   answer.innerHTML = answerText;
 
@@ -86,6 +85,8 @@ function goNext(qIdx){
   for(let i in qnaList[qIdx].a){
     addAnswer(qnaList[qIdx].a[i].answer, qIdx, i);
   }
+  var countStatusNum = document.querySelector('.countStatus'); 
+  countStatusNum.innerHTML = (qIdx+1)+"/"+ endPoint;
   var status = document.querySelector('.statusBar');
   status.style.width = (100/endPoint) * (qIdx+1) + '%';
 }
@@ -105,11 +106,11 @@ function begin(){
   }, 450);
 }
 
-// function countTest(){
-//   var resultCount = document.getElementById('countTestResult'); 
+function countTest(){
+  var resultCount = document.getElementById('countTestResult'); 
 
-//   var num = resultCount.innerText; 
-//   num = parseInt(num)+1; 
+  var num = resultCount.innerText; 
+  num = parseInt(num)+1; 
 
-//   resultCount.innerText = num;
-// }
+  resultCount.innerText = num;
+}

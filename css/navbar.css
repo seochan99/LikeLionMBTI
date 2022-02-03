@@ -19,6 +19,12 @@ a {
     padding: 8px 12px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.navbarFont{
+    font-family:yg-jalnan;
+    color: #868686;
+}
+
 .navbar__logo {
     font-size: 24px;
     color: var(--text-color);
