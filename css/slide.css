@@ -6,24 +6,47 @@ ul,li{list-style:none;}
 .slide li:nth-child(1){
 
     background-image: url(../img/slide1.png);
-    background-size: auto 250px;
+    background-size: auto 90%;
     background-repeat: no-repeat;
 }
 .slide li:nth-child(2){
     background-image: url(../img/slide2.png);
-    background-size: auto 300px;
+    background-size: auto 90%;
     background-repeat: no-repeat;
 }
 .slide li:nth-child(3){
-    background-image: url(../img/slide4.png);
-    background-size: auto 450px;
+    background-image: url(../img/slide1.png);
+    background-size: auto 90%;
     background-repeat: no-repeat;
 }
 .slide li:nth-child(4){
     background-image: url(../img/slide2.png);
-    background-size: auto 300px;
+    background-size: auto 90%;
     background-repeat: no-repeat;
 }
+@media (max-width: 768px) {
+    .slide li:nth-child(1){
+        background-image: url(../img/slide1.png);
+        background-size: auto 55%;
+        background-repeat: no-repeat;
+    }
+    .slide li:nth-child(2){
+        background-image: url(../img/slide2.png);
+        background-size: auto 55%;
+        background-repeat: no-repeat;
+    }
+    .slide li:nth-child(3){
+        background-image: url(../img/slide3.png);
+        background-size: auto 55%;
+        background-repeat: no-repeat;
+    }
+    .slide li:nth-child(4){
+        background-image: url(../img/slide1.png);
+        background-size: auto 55%;
+        background-repeat: no-repeat;
+    }
+  }
+  
 @keyframes slide {
 0% {margin-left:0;} /* 0 ~ 10  : 정지 */
 10% {margin-left:0;} /* 10 ~ 25 : 변이 */
@@ -36,6 +59,3 @@ ul,li{list-style:none;}
 100% {margin-left:0;}
 }
 
-body{
-    background-image: ;
-}
