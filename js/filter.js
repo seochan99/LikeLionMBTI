@@ -35,12 +35,12 @@ function RemoveClass(element, name) {
 }
 
 // Add active class to the current control button (highlight it)
-var btnContainer = document.getElementById("category_container");
-var btns = btnContainer.getElementsByClassName("category");
+
+var btns = document.getElementsByClassName("categoryTop");
 for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
+        var current = document.getElementsByClassName("check_category");
+        current[0].classList.remove("check_category");
+        this.className += " check_category";
     });
 }
