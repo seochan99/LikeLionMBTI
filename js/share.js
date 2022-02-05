@@ -1,6 +1,6 @@
 const url = 'https://likelion.netlify.app/';
 
-function setStare(){
+function setShare(){
     var resultImg = document.querySelector('#resultImg'); 
     var resultAlt = resultImg.firstElementChild.alt; 
     const shareTitle = '개발자 유형 테스트 결과'
