@@ -1,12 +1,12 @@
-const url = 'https://likelion.netlify.app/';
+const SITEURL = 'https://likelion.netlify.app/';
 
 function setShare(){
     var resultImg = document.querySelector('#resultImg'); 
     var resultAlt = resultImg.firstElementChild.alt; 
     const shareTitle = '개발자 유형 테스트 결과'
     const shareDes=infoList[resultAlt].name;
-    const shareImage= url + 'img/image-' + resultAlt + '.png';
-    const shareURL = url + 'result-' + resultAlt + '.html';
+    const shareImage= SITEURL + 'img/image-' + resultAlt + '.png';
+    const shareURL = SITEURL + 'result-' + resultAlt + '.html';
     Kakao.Link.sendDefault({
         objectType: 'feed',
         content: {
