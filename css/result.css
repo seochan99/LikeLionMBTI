@@ -5,6 +5,13 @@
   text-align: center;
   border-radius: 20px;
 }
+#shareResult{
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
 
 .resultname{
   font-size: 26px;
