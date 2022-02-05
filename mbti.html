@@ -39,7 +39,7 @@
                 </div>
                 <ul class="navbar__menu" id="tabs">
                         <li><a class="navbarFont" href="likelionAbout.html">About.</a></li>
-                        <li><a class="navbarFont check" href="mbti.html">멋사 성향 TEST.</a></li>
+                        <li><a class="navbarFont check" href="mbti.html">개발자 성향 TEST.</a></li>
                         <li><a class="navbarFont" href="school.html">참여대학.</a></li>
                         <li><a class="navbarFont" href="story.html">창업 Stroy.</a></li>
                 </ul>
@@ -62,9 +62,11 @@
         <br><br>
         아래 시작하기 버튼을 눌러주세요!
       </p>
+
       <button type="button" class="jalan btn mt-3 startButton" onclick="js:begin()">시작하기</button>
-      <!-- js:countTest()
-      <div id="countTestResult">0</div> -->
+
+
+
     </section>
     <section id="qna">
       <div class="status mx-auto mt-5">
@@ -117,12 +119,40 @@
         </div>
 
       </div>
-      <div style="text-align: center; margin-top: 30px;">
+      <div calss="likelionApply" style="text-align: center;">
+        <img src="img/멋사로고.png" class="likelionApllyImg">
+        <h4 class="likelionApplyText">멋쟁이사자처럼 대학에 가입해 도전해봐!</h4>
+      </div>
+      <div class="applyBox">
         <a class="goSchool" href="school.html">참여대학 보러가기</a>
       </div>
-      <div style="text-align: center; margin-top: 30px;">
+      <div class="applyBox">
         <a class="goSchool" href="story.html">창업Story 보러가기</a>
       </div>
+      <div class="shareReusltBox">
+        <h4 class="shareReuslt">내 결과 공유하러 가기</h4>
+      </div>
+            <!-- SNS버튼 시작 -->
+
+      <div style="width: 100%; text-align: center; margin-bottom: 64px;">
+
+        <!-- 페이스북 공유 버튼 -->
+        <a href="" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;"><img src="img/icon-facebook.png"
+        title="페이스북" 
+        class="sharebtn_custom">
+        </a>
+        
+        <!-- 트위터 공유 버튼 -->
+        <a href="" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;"><img src="img/icon-twitter.png" title="트위터" class="sharebtn_custom"
+        ></a>
+        
+        
+        <!-- 네이버 공유 버튼 -->
+        <a href="" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600,height=600'); return false;"><img src="img/icon-kakao.png" title="네이버" class="sharebtn_custom"
+        ></a>
+
+      </div>	
+  <!-- SNS버튼 끝 -->
       <!-- <button type="button" class="kakao mt-3 py-2 px-3" onclick="">공유하기</button> -->
     </section>
   </div>
@@ -134,6 +164,22 @@
   <script src="./js/share.js" charset="utf-8"></script>
   <script src="/js/navbar.js" defer></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-  
+  <script type="text/javascript" async> 
+    var url_default_ks = "https://story.kakao.com/share?url=";
+    var url_default_fb = "https://www.facebook.com/sharer/sharer.php?u=";
+    var url_default_tw_txt = "https://twitter.com/intent/tweet?text=";
+    var url_default_tw_url = "&url="; 
+    var url_default_band = "http://band.us/plugin/share?body=";
+    var url_route_band = "&route="; 
+    var url_default_naver = "http://share.naver.com/web/shareView.nhn?url="; 
+    var title_default_naver = "&title=";
+    var url_this_page = location.href; 
+    var title_this_page = document.title;
+    var url_combine_ks = url_default_ks + url_this_page; 
+    var url_combine_fb = url_default_fb + url_this_page; 
+    var url_combine_tw = url_default_tw_txt + document.title + url_default_tw_url + url_this_page;
+    var url_combine_band = url_default_band + encodeURI(url_this_page)+ '%0A' + encodeURI(title_this_page)+'%0A' + '&route=tistory.com'; 
+    var url_combine_naver = url_default_naver + encodeURI(url_this_page) + title_default_naver + encodeURI(title_this_page); 
+</script>
 </body>
 </html>
