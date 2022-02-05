@@ -14,16 +14,16 @@ function setShare(){
         description: shareDes,
         imageUrl: shareImage,
         link: {
-            mobileWebUrl: shareURL,
-            webUrl : shareURL,
+            mobileWebUrl: window.hareURL,
+            webUrl : window.shareURL,
         },
         },
         buttons: [
         {
             title: '결과 확인하기',
             link: {
-            mobileWebUrl: shareURL,
-            webUrl : shareURL
+            mobileWebUrl: window.shareURL,
+            webUrl : window.shareURL
             },
         },
         ]
