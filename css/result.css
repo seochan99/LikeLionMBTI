@@ -123,6 +123,11 @@
 
 /* 모바일 화면 */
 @media (max-width: 1000px){
+  #result{
+    display: none;
+    width: 90%;
+  }
+
   .resultname{
     margin-top: 6px;
     font-size: 1.5em; 
