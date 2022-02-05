@@ -34,30 +34,30 @@ ul,li{list-style:none;}
 }
 @media (max-width: 768px) {
     .slide li:nth-child(1){
-        background-image: url(../img/slide1.jpg);
-        background-size: 100% 40%;
+        background-image: url(../img/Mslide1.jpg);
+        background-size: 100% 70%;
         background-repeat: no-repeat;
     }
     .slide li:nth-child(2){
-        background-image: url(../img/slide2.jpg);
-        background-size: 100% 40%;
+        background-image: url(../img/Mslide2.jpg);
+        background-size: 100% 65%;
         background-repeat: no-repeat;
     }
     .slide li:nth-child(3){
-        background-image: url(../img/slide3.jpg);
-        background-size: 100% 40%;
+        background-image: url(../img/Mslide3.jpg);
+        background-size: 100% 65%;
         background-repeat: no-repeat;
     }
     .slide li:nth-child(4){
-        background-image: url(../img/slide4.jpg);
-        background-size: 100% 40%;
+        background-image: url(../img/Mslide4.jpg);
+        background-size: 100% 65%;
         background-repeat: no-repeat;
     }
     .schoolTitle{
         text-align: center;
         font-weight: bold;
         font-size: 30px;
-        transform: translateY(-150px);
+        transform: translateY(-100px);
         margin-bottom: 30px;
         font-family: 'GmarketSansMedium';
     }
