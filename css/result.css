@@ -93,6 +93,10 @@
   margin: 5px;
 }
 
+.naverIcon{
+  width: 6%;  
+  transform: translateY(2px);
+}
 
 /* 모바일 화면 */
 @media (max-width: 1000px){
@@ -155,6 +159,10 @@
   .sharebtn_custom{
     width: 14%;
     margin: 5px;
+  }
+  .naverIcon{
+    transform: translateY(1px);
+    width: 17%;  
   }
   
 }

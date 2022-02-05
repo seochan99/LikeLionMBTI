@@ -27,7 +27,11 @@
   <link rel="stylesheet" href="css/qna.css">
   <link rel="stylesheet" href="css/animation.css">
   <link rel="stylesheet" href="css/result.css">
-
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+  <script>
+    Kakao.init('e76fcbd98a9f0523a6c0b3993ab04325');
+    Kakao.isInitialized();
+  </script>
 </head>
 
 <body>
@@ -133,6 +137,7 @@
         <h4 class="shareReuslt">내 결과 공유하러 가기</h4>
       </div>
             <!-- SNS버튼 시작 -->
+            
 
       <div style="width: 100%; text-align: center; margin-bottom: 64px;">
 
@@ -148,8 +153,11 @@
         
         
         <!-- 네이버 공유 버튼 -->
-        <a href="" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600,height=600'); return false;"><img src="img/icon-kakao.png" title="네이버" class="sharebtn_custom"
+        <a href="" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600,height=600'); return false;"><img src="img/블로그3.png" title="네이버" class="sharebtn_custom naverIcon"
         ></a>
+        <!-- 카카오 공유 버튼 -->
+        <a href="" onclick="js:kakaoShare();"><img src="img/icon-kakao.png" title="카카오톡" class="sharebtn_custom"
+          ></a>
 
       </div>	
   <!-- SNS버튼 끝 -->
@@ -163,6 +171,7 @@
   <script src="./js/start.js" charset="utf-8"></script>
   <script src="./js/share.js" charset="utf-8"></script>
   <script src="/js/navbar.js" defer></script>
+  <script src="/js/share.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script type="text/javascript" async> 
     var url_default_ks = "https://story.kakao.com/share?url=";
