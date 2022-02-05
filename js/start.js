@@ -41,6 +41,15 @@ function setResult(){
   const resultDescTitle3 = document.querySelector('.resultDescTitle3');
   resultDescTitle3.innerHTML = infoList[point].descTitle3;
   resultDesc3.innerHTML = infoList[point].desc3;
+
+  const resultIf = document.querySelector('.ifU');
+  const resultbasicj1 = document.querySelector('.basic1');
+  const resultbasicj2 = document.querySelector('.basic2');
+  const resultbasicj3 = document.querySelector('.basic3');
+  resultIf.innerHTML = infoList[point].resultif;
+  resultbasicj1.innerHTML = infoList[point].resultbasic1;
+  resultbasicj2.innerHTML = infoList[point].resultbasic2;
+  resultbasicj3.innerHTML = infoList[point].resultbasic3;
 }
 
 function goResult(){
