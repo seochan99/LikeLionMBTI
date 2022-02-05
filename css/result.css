@@ -126,9 +126,9 @@
     margin-bottom: 10px;
   }
   .goSchool{
-    font-size: 1em;
+    font-size: 0.8em;
     border : 1px solid none; 
-    padding: 10px 15px; 
+    padding: 10px 13px; 
     font-weight: 600;  
     border-radius: 10px; 
     background-color: rgb(255, 235, 179);
@@ -141,7 +141,7 @@
   }
   .applyBox{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     display: block;
   }
   .shareReusltBox{
