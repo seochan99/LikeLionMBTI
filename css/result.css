@@ -105,6 +105,22 @@
   transform: translateY(2px);
 }
 
+
+
+.ifU{
+  margin-top: 20px;
+  margin-bottom: 8px;
+  text-decoration: underline;
+  color: orange;
+  font-size: 1.7em;
+  font-family: GmarketSansMedium;
+}
+
+.basic1, .basic2, .basic3{
+  font-family: GmarketSansMedium;
+  font-size: 1.2em;
+}
+
 /* 모바일 화면 */
 @media (max-width: 1000px){
   .resultname{
@@ -171,5 +187,17 @@
     transform: translateY(1px);
     width: 17%;  
   }
+  .ifU{
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-decoration: underline;
+    color: orange;
+    font-size: 1.3em;
+    font-family: GmarketSansMedium;
+  }
   
+  .basic1, .basic2, .basic3{
+    font-family: GmarketSansMedium;
+    font-size: 0.7em;
+  }
 }

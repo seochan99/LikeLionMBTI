@@ -83,6 +83,10 @@ const infoList = [
     desc2:'백엔드 개발자들은 눈에 보이지 않는 것들을 개발합니다. 그렇기에 추상적인 것들을 잘 받아들이는 능력이 필요하죠. 실체 없는 것을 구상하고 이해하는 탁월한 능력을 가진 당신은 백엔드 개발자로써 서비스와 데이터 저장에 대한 구조를 이해하는 탁월한 능력을 가졌답니다.',
     descTitle3:'🦁 어떤 일에도 쉽게 포기하지 않는 당신! 성실하고 묵직한 끈기를 지닌 사람이예요. ',
     desc3:'지지치 않는 끈기를 바탕으로 무언가를 계속 만들고 고치며 항상 뒤에서 중심을 지켜주는 당신. 이러한 성향을 가진 백엔드 개발자는 서비스 구현에 큰 버팀목이 되어 줍니다.',
+    resultif:'🔍 백엔드 개발자가 되려면?',
+    resultbasic1:'✔️기초언어: C/C++,Python,Java',
+    resultbasic2:'✔️필수 지식: 통신개념(HTTP), 데이터베이스(SQL)',
+    resultbasic3:'✔️고급 스킬: Django, Spring, Node.js, Flask',
   },
   {
     nameIntro :'보이는 부분은 내가책임질께!',
@@ -93,6 +97,10 @@ const infoList = [
     desc2:'사용자의 입장에서, 디테일한 부분까지 놓치지 않고 구현할 수 있는 능력을 가지고 있으므로 사용자에게 적합한 UI를 제공할 수 있어요.',
     descTitle3:'🦁 당신은 뛰어난 소통능력을 가진 사람이예요.',
     desc3:'다른 직군과 소통하며 세부사항의 구현 내용을 조절할 줄 알고, 이러한 능력을 기반으로 기획자·디자이너·백엔드 개발자와 원활하게 소통할 수 있어요.',
+    resultif:'🔍 프론트엔드 개발자가 되려면?',
+    resultbasic1:'✔️기초언어: html, css, javascript',
+    resultbasic2:'✔️필수 지식: 웹 개념,boot strap, jQuery',
+    resultbasic3:'✔️고급 스킬: angular, react, vue.js',
   },
   {
     nameIntro :"보이는 부분은 내가 책임질께!",
@@ -103,6 +111,10 @@ const infoList = [
     desc2:'디자이너의 가장 큰 역할은 사용자가 편리한 디자인을 하는 것이기 때문에 누군가의 니즈를 말하지 않아도 캐치해내는 능력을 가진 당신은 사용자에게 가장 적합한 디자인을 제공할 수 있어요.',
     descTitle3:'🦁 깔끔한 정리능력을 지닌 당신! 정보들을 직관적으로 구조화하고 구성하는 탁월한 능력이 있어요!',
     desc3:'어떤 내용을 다른 사람이 이해하기 쉽게 깔끔하게 정리하는 탁월한 능력을 가진 당신은 눈에 보기에도 이쁘고 편한 인터페이스를 효과적으로 설계할 수 있어요.',
+    resultif:'🔍 UI/UX디자이너가 되려면?',
+    resultbasic1:'✔️기초언어: html, css, javascript',
+    resultbasic2:'✔️필수 지식: 웹 개념,boot strap, jQuery',
+    resultbasic3:'✔️고급 스킬: angular, react, vue.js',
   },
   {
     nameIntro :"기획은 나한테 맡기라구~",
@@ -113,5 +125,9 @@ const infoList = [
     desc2:'사용자의 입장에서, 디테일한 부분까지 놓치지 않고 구현할 수 있는 능력을 가지고 있으므로 사용자에게 적합한 UI를 제공할 수 있어요.',
     descTitle3:'🦁 당신은 뛰어난 소통능력을 가진 사람이예요.',
     desc3:'다른 직군과 소통하며 세부사항의 구현 내용을 조절할 줄 알고, 이러한 능력을 기반으로 기획자·디자이너·백엔드 개발자와 원활하게 소통할 수 있어요.',
+    resultif:'🔍 기획자가 되려면?',
+    resultbasic1:'✔️기초언어: html, css, javascript',
+    resultbasic2:'✔️필수 지식: 웹 개념,boot strap, jQuery',
+    resultbasic3:'✔️고급 스킬: angular, react, vue.js',
   }
 ]
