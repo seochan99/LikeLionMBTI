@@ -1,52 +1,68 @@
+.schoolTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    font-family: 'GmarketSansMedium';
+}
+
 *{margin:0;padding:0;}
 ul,li{list-style:none;}
 .slide{height:300px;overflow:hidden;}
 .slide ul{width:calc(100% * 4);display:flex;animation:slide 16s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
 .slide li{width:calc(100% / 4);height:300px;}
 .slide li:nth-child(1){
-
-    background-image: url(../img/slide1.png);
-    background-size: auto 90%;
+    background-image: url(../img/slide1.jpg);
+    background-size: 100% 99%;
     background-repeat: no-repeat;
 }
 .slide li:nth-child(2){
-    background-image: url(../img/slide2.png);
-    background-size: auto 90%;
+    background-image: url(../img/slide2.jpg);
+    background-size: 100% 99%;
     background-repeat: no-repeat;
 }
 .slide li:nth-child(3){
-    background-image: url(../img/slide1.png);
-    background-size: auto 90%;
+    background-image: url(../img/slide3.jpg);
+    background-size: 100% 99%;
     background-repeat: no-repeat;
 }
 .slide li:nth-child(4){
-    background-image: url(../img/slide2.png);
-    background-size: auto 90%;
+    background-image: url(../img/slide1.jpg);
+    background-size: 100% 99%;
     background-repeat: no-repeat;
 }
 @media (max-width: 768px) {
     .slide li:nth-child(1){
-        background-image: url(../img/slide1.png);
-        background-size: auto 55%;
+        background-image: url(../img/slide1.jpg);
+        background-size: 100% 40%;
         background-repeat: no-repeat;
     }
     .slide li:nth-child(2){
-        background-image: url(../img/slide2.png);
-        background-size: auto 55%;
+        background-image: url(../img/slide2.jpg);
+        background-size: 100% 40%;
         background-repeat: no-repeat;
     }
     .slide li:nth-child(3){
-        background-image: url(../img/slide3.png);
-        background-size: auto 55%;
+        background-image: url(../img/slide3.jpg);
+        background-size: 100% 40%;
         background-repeat: no-repeat;
     }
     .slide li:nth-child(4){
-        background-image: url(../img/slide1.png);
-        background-size: auto 55%;
+        background-image: url(../img/slide1.jpg);
+        background-size: 100% 40%;
         background-repeat: no-repeat;
     }
+    .schoolTitle{
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        transform: translateY(-150px);
+        margin-bottom: 30px;
+        font-family: 'GmarketSansMedium';
+    }
   }
-  
+
 @keyframes slide {
 0% {margin-left:0;} /* 0 ~ 10  : 정지 */
 10% {margin-left:0;} /* 10 ~ 25 : 변이 */
