@@ -1,12 +1,12 @@
-const SITEURL = 'https://likelion.netlify.app/';
+const url = 'https://likelion.netlify.app/';
 
 function setShare(){
     var resultImg = document.querySelector('#resultImg'); 
     var resultAlt = resultImg.firstElementChild.alt; 
     const shareTitle = '개발자 유형 테스트 결과'
     const shareDes=infoList[resultAlt].name;
-    const shareImage= SITEURL + 'img/image-' + resultAlt + '.png';
-    const shareURL = SITEURL + 'result-' + resultAlt + '.html';
+    const shareImage= url + 'img/image-' + resultAlt + '.png';
+    const shareURL = url + 'result-' + resultAlt + '.html';
     Kakao.Link.sendDefault({
         objectType: 'feed',
         content: {
@@ -14,16 +14,16 @@ function setShare(){
         description: shareDes,
         imageUrl: shareImage,
         link: {
-            mobileWebUrl: window.hareURL,
-            webUrl : window.shareURL,
+            mobileWebUrl: shareURL,
+            webUrl : shareURL,
         },
         },
         buttons: [
         {
             title: '결과 확인하기',
             link: {
-            mobileWebUrl: window.shareURL,
-            webUrl : window.shareURL
+            mobileWebUrl: shareURL,
+            webUrl : shareURL
             },
         },
         ]
