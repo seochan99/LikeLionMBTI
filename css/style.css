@@ -25,7 +25,9 @@
   font-weight: normal;
   font-style: normal;
 }
-
+/* #mainPage{
+  width: 80%;
+} */
 *{
     font-family: 'Noto Sans KR', sans-serif;
     /* font-family: 'Jua', sans-serif; */
@@ -228,8 +230,8 @@ li{list-style: none;}
   
 }
 .univ{
-  width: 170px;
-  height: 170px;
+  width: 150px;
+  height: 150px;
 }
 .univName{
   text-align: center; 

@@ -52,13 +52,16 @@
                 </ul>
         </div>
         </div>        
-        <section class="py-3 overflow-hidden d-none d-sm-block">
+<section id = "mainPage">
+
+
+        <section class="py-3 overflow-hidden d-none d-sm-block" >
                 <div class="schoolTitle">
                         참여 대학교
                 </div>
                 <div class="wap">
                         <div class="box1">
-                                <button class="controls" style="background-color: white; border: none;">
+                                <button class="controls" style="background-color: white;">
                                         <span class="prev" style="font-size: 30px;">👈</span>
                                 </button>
                         </div>
@@ -199,37 +202,8 @@
                         </ul>
                 </div>      
         </section>
-        <script>
-                var slides = document.querySelector('.slides'),
-                        slide = document.querySelectorAll('.slides li'),
-                        currentIdx = 0,
-                        slideCount = slide.length,
-                        prevBtn = document.querySelector('.prev'),
-                        slideWidth = 200,
-                        slideMargin =30,
-                        nextBtn = document.querySelector('.next');
+</section>
 
-                        slides.style.width = (slideWidth+slideMargin)*slideCount +'px';
-
-                        function moveSlide(num){
-                        slides.style.left= -num*230+'px';
-                        currentIdx = num;
-                        };
-                        nextBtn.addEventListener('click',function(){
-                        if(currentIdx < slideCount-4){
-                                moveSlide(currentIdx+3);
-                        }else{
-                                moveSlide(0);
-                        }
-                        })
-                        prevBtn.addEventListener('click',function(){
-                        if(currentIdx>0){
-                                moveSlide(currentIdx-4);
-                        }else{
-                                moveSlide(slideCount-3);
-                        }
-                        });
-        </script>
 <!-- 개발자 section  -->
 <!-- 이하 푸터 -->
 <footer class="footer-clean" >
@@ -261,10 +235,37 @@
         </div>
         </footer>
 
-</body>
+        <script>
+                var slides = document.querySelector('.slides'),
+                        slide = document.querySelectorAll('.slides li'),
+                        currentIdx = 0,
+                        slideCount = slide.length,
+                        prevBtn = document.querySelector('.prev'),
+                        slideWidth = 200,
+                        slideMargin =30,
+                        nextBtn = document.querySelector('.next');
 
-</html>
+                        slides.style.width = (slideWidth+slideMargin)*slideCount +'px';
 
+                        function moveSlide(num){
+                        slides.style.left= -num*230+'px';
+                        currentIdx = num;
+                        };
+                        nextBtn.addEventListener('click',function(){
+                        if(currentIdx < slideCount-4){
+                                moveSlide(currentIdx+3);
+                        }else{
+                                moveSlide(0);
+                        }
+                        })
+                        prevBtn.addEventListener('click',function(){
+                        if(currentIdx>0){
+                                moveSlide(currentIdx-4);
+                        }else{
+                                moveSlide(slideCount-3);
+                        }
+                        });
+        </script>
 <!-- credit to https://epicbootstrap.com/snippets/footer-basic -->
         <script src="/js/navbar.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
