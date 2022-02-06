@@ -331,3 +331,11 @@ a.check{
   text-align: center;
   cursor: pointer;
 }
+@media (max-height:767px){
+  .mobile{
+    margin-bottom: 150px;
+  }
+  .frame ul li{
+    width: 125px;
+  }
+}
