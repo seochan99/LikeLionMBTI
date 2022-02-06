@@ -211,7 +211,6 @@ li{list-style: none;}
 .controls span.next{left:calc(100% + 50%);}
 
 .wap{
-  width: 2000px;
   height: 400px;
   margin: 0 auto;
   
