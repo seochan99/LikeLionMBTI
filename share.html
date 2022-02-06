@@ -14,7 +14,7 @@
     <a id="kakao-link-btn" href="javascript:kakaoShare()">
     	<img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" />
     </a>
-    <a id="clip-btn" href="javascript:clipboardShare()">
+    <a id="" href="javascript:clipboardShare()">
     	<img src="img/공유.png"/ style="width:30%">
     </a>
 </body>
@@ -51,12 +51,45 @@
             	alert("클립보드에 복사가 완료되었습니다.");
             }
        }
+       
 </script>
+
 <script src="js/data.js"></script>
+
 <script type="text/javascript">
   Kakao.init('69b60ffde33e69fed5960adba8c69b9f');
   Kakao.isInitialized();
 
+  function setShare(){
+    var resultImg = document.querySelector('#resultImg'); 
+    var resultAlt = resultImg.firstElementChild.alt; 
+    const shareTitle = '개발자 유형 테스트 결과'
+    const shareDes=infoList[resultAlt].name;
+    const shareImage= 'https://likelion.netlify.app/' + 'img/image-' + resultAlt + '.png';
+    const shareURL = 'https://likelion.netlify.app/' + 'result-' + resultAlt + '.html';
+    Kakao.Link.sendDefault({
+        objectType: 'feed',
+        content: {
+        title: shareTitle,
+        description: shareDes,
+        imageUrl: shareImage,
+        link: {
+            mobileWebUrl: shareURL,
+            webUrl : shareURL,
+        },
+        },
+        buttons: [
+        {
+            title: '결과 확인하기',
+            link: {
+            mobileWebUrl: shareURL,
+            webUrl : shareURL
+            },
+        },
+        ]
+    });
+
+}
   function kakaoShare() {
     // var resultImg = document.querySelector('#resultImg'); 
     // var resultAlt = resultImg.firstElementChild.alt; 
@@ -84,8 +117,6 @@
             },
         },
         ],
-      // 카카오톡 미설치 시 카카오톡 설치 경로이동
-      installTalk: true,
     })
   }
 </script>
