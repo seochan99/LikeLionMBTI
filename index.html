@@ -218,7 +218,7 @@
     var resultAlt = resultImg.firstElementChild.alt; 
     const shareTitle = '나의 개발자 성향은 무엇일까? 나의 개발자 성향을 확인해보자!!'
     const shareDes=infoList[resultAlt].name;
-    const shareImage= 'https://likelion.netlify.app/' + 'img/image-' + '초기1.jpeg';
+    const shareImage= 'https://likelion.netlify.app/' + 'img/초기1.jpeg';
     const shareURL = 'https://likelion.netlify.app/' + 'result-' + resultAlt + '.html';
     Kakao.Link.sendDefault({
         objectType: 'feed',
@@ -250,7 +250,7 @@
     var resultImg = document.querySelector('#resultImg'); 
     var resultAlt = resultImg.firstElementChild.alt; 
     const shareURL = 'https://likelion.netlify.app/' + 'result-' + resultAlt + '.html';
-    
+
     	    // 1. 새로운 element 생성
     	    var tmpTextarea = document.createElement('textarea');
             // 2. 해당 element에 복사하고자 하는 value 저장
