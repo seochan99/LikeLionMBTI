@@ -1,199 +1,216 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" dir="ltr">
+
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        
-        <!-- 합쳐지고 최소화된 최신 CSS -->
+  <title>with9/10°TesT</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="폰트어썸 본인 CDN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 
-<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/style.css">
-        <script src="main.js" defer></script>
-        <title>LikeLionMBTI</title>
+  <link rel="shortcut icon" href="img/파비콘.ico">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/qna.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/result.css">
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+  <script>
+    Kakao.init('69b60ffde33e69fed5960adba8c69b9f');
+    Kakao.isInitialized();
+  </script>
 </head>
+
 <body>
-    <!-- navbar 공통  -->
-    <nav class="navbar">
-        <div class="navbar__logo">
-                <!-- <i class="fab fa-amazon"></i> -->
-                <img src="https://avatars.githubusercontent.com/u/19548196?s=200&v=4" style="width: 18%; border-radius: 15px; ">
-                <a href="index.html">likelion</a>
-        </div>
-        <ul class="navbar__menu" >
-                <li><a class="navbarFont" href="likelionAbout.html">About.</a></li>
-                <li><a class="navbarFont" href="mbti.html">멋사 성향 TEST.</a></li>
-                <li><a class="navbarFont" href="school.html">참여대학.</a></li>
-                <li><a class="navbarFont" href="story.html">창업 Stroy.</a></li>
-        </ul>
-        <a href="#" class="navbar__toggleBtn"> <i class="fas fa-bars"></i> </a>
-</nav>
-        <div>
-        </div>
-        
-        <div class="slide">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-        </div>
-        <div style="text-align: center; font-weight: bold; font-size: 40px; margin-top: 30px; margin-bottom: 30px;">
-                참여 대학교
-        </div>
-        <section class="py-4 overflow-hidden d-none d-sm-block">
-                <div class="wap">
-                        <div class="box1">
-                                <button class="controls">
-                                        <span class="prev">prev</span>
-                                </button>
-                        </div>
-                        <div class="box2">
-                                <div class="slide_div">
-                                        <div class = "slider_wrapper">
-                                                <ul class="slides">
-                                                        <li class="li"><img class="univ" src="./img/school/강원대학교(춘천).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">강원대학교(춘천)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/경북대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">경북대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/경상국립대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">경상국립대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/계명대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">계명대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/고려대학교(세종).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">고려대학교(세종)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/고려대학교(안암).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">고려대학교(안암)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/광운대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">광운대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/국민대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">국민대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/금오공과대학교(양호).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">금오공과대학교(양호)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/덕성여자대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">덕성여자대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/동국대학교(서울).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">동국대학교(서울)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/동덕여자대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">동덕여자대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/명지대학교(자연).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">명지대학교(자연)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/삼육대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">삼육대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/상명대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">상명대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/서강대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">서강대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/서울대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">서울대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/서울여자대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">서울여자대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/성공회대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">성공회대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/성균관대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">성균관대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/성신여자대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">성신여자대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/숙명여자대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">숙명여자대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/순천대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">순천대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/숭실대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">숭실대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/연세대학교 (서울).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">연세대학교 (서울)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/영남대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">영남대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/을지대학교(성남).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">을지대학교 (성남)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/이화여자대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">이화여자대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/인천대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">인천대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/인하대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">인하대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/전남대학교(광주).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">전남대학교(광주)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/중앙대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">중앙대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/충북대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">충북대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/한국외국어대학교(글로벌).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">한국외국어대학교(글로벌)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/한국외국어대학교(서울).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">한국외국어대학교(서울)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/한국항공대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">한국항공대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/한밭대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">한밭대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/한서대학교(서산).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">한서대학교(서산)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/한성대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">한성대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/한양대학교 (에리카).png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">한양대학교(에리카)</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/한양대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">한양대학교</h5></li>
-                                                        <li class="li"><img class="univ" src="./img/school/홍익대학교.png" alt=" " ><h5 style="text-align: center; border: 3px; margin-top: 15px;">홍익대학교</h5></li>
-                                                </ul>
-                                        </div>           
-                                </div>
-                        </div>
-                        <div class="box1">
-                                <button class="controls">
-                                        <span class="next">next</span>
-                                </button>
-                        </div> 
+        <nav class="navbar">
+                <div class="navbar__logo">
+                        <!-- <i class="fab fa-amazon"></i> -->
+                        <img src="img/로고임다.png" style="width:60px; height: 51.25; transform: translateY(px);">
+                        <a href="main.html" style="font-family: 'GmarketSansMedium'; font-size: 20px;">with9/10°</a>
                 </div>
-        </section>
-        <!--모바일화면-->
-        <section class="py-4 overflow-hidden d-block d-sm-none">
-                
-        </section>
-        <script>
-                var slides = document.querySelector('.slides'),
-                        slide = document.querySelectorAll('.slides li'),
-                        currentIdx = 0,
-                        slideCount = slide.length,
-                        prevBtn = document.querySelector('.prev'),
-                        slideWidth = 200,
-                        slideMargin =30,
-                        nextBtn = document.querySelector('.next');
+                <ul class="navbar__menu" id="tabs">
+                        <li><a class="navbarFont" href="likelionAbout.html">About.</a></li>
+                        <li><a class="navbarFont check" href="index.html">개발자 성향 TEST.</a></li>
+                        <li><a class="navbarFont" href="school.html">참여대학.</a></li>
+                        <li><a class="navbarFont" href="story.html">창업 Stroy.</a></li>
+                </ul>
+                <a href="#" class="navbar__toggleBtn"> <i class="fas fa-bars"></i> </a>
+        </nav>
+  <div class="container">
+    <!-- <div class="resultname">
+      프론트엔드 개발자형
+    </div> -->
+    
+    <section id="main" class="mx-auto my-5 py-5 px-4">
+      <h1 class="jalan testBoxTitle">나의 <span class="jalan" style="color: rgb(255, 174, 24);">개발자 </span>유형은? </h1>
+      <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+        <img src="./img/초기1.png" alt="mainImage" class="img-fluid">
+      </div>
+      <p class="Gmarket testBoxBody" style="margin-top: 10px;">
+        <!-- 동국대학교 멋쟁이사자처럼에서 제작한<br>       -->
+        멋쟁이사자처럼 with9/10°팀에서 제작한<br>
+        <!-- with9/10° -->
+        개발자 성향 TEST 입니다!
+        <br><br>
+        아래 시작하기 버튼을 눌러주세요!
+      </p>      
 
-                        slides.style.width = (slideWidth+slideMargin)*slideCount +'px';
+      <button type="button" class="jalan btn mt-3 startButton" onclick="js:begin()">시작하기</button>
 
-                        function moveSlide(num){
-                        slides.style.left= -num*230+'px';
-                        currentIdx = num;
-                        };
-                        nextBtn.addEventListener('click',function(){
-                        if(currentIdx < slideCount-4){
-                                moveSlide(currentIdx+3);
-                        }else{
-                                moveSlide(0);
-                        }
-                        })
-                        prevBtn.addEventListener('click',function(){
-                        if(currentIdx>0){
-                                moveSlide(currentIdx-4);
-                        }else{
-                                moveSlide(slideCount-3);
-                        }
-                        });
-        </script>
-        
-        <div>
-                창업스토리
+
+
+    </section>
+    <section id="qna">
+      <div class="status mx-auto mt-5">
+        <div class="countStatus">
+
         </div>
+        <div class="statusBar">
+        </div>
+      </div>
+      <div class="qBox my-5 py-3 mx-auto">
+
+      </div>
+      <div class="answerBox">
+
+      </div>
+    </section>
+
+    <section id="result" class="mx-auto my-5 py-5 px-4">
+      <h2 style="font-family: yg-jalnan;">나의 결과는 ?!</h2>
+      <div style="font-family: GmarketSansMedium;">
+
+        <div class="resultInro">
+
+        </div>
+        <div class="resultname">
+
+        </div>
+      </div>
+      <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+
+      </div>
+      <div class="resultDesc">
+        <div class="resultDescTitle1">
+
+        </div>
+        <div class="resultDesc1">
+
+        </div>
+        <div class="resultDescTitle2">
+
+        </div>
+        <div class="resultDesc2">
+          
+        </div>
+        <div class="resultDescTitle3">
+
+        </div>
+        <div class="resultDesc3">
+          
+        </div>        
+      </div>
+      <div class="recommand">
+        <div class="ifU">
+
+        </div>
+        <div class="basic1">
+
+        </div>
+        <div class="basic2">
+
+        </div>
+        <div class="basic3">
+
+        </div>
+
+      </div>
+      <div calss="likelionApply" style="text-align: center;">
+        <img src="멋사2.png" class="likelionApllyImg">
+        <h4 class="likelionApplyText">멋쟁이사자처럼 대학에 가입해 도전해봐!</h4>
+      </div>
+      <div class="applyBox">
+        <a class="goSchool" href="school.html">참여대학 보러가기</a>
+      </div>
+      <div class="applyBox">
+        <a class="goSchool" href="story.html">창업Story 보러가기</a>
+      </div>
+      <div class="shareReusltBox">
+        <h4 class="shareReuslt">내 결과 공유하러 가기</h4>
+      </div>
+            <!-- SNS버튼 시작 -->
+            
+
+      <div style="width: 100%; text-align: center; margin-bottom: 64px;">
+
+        <!-- 페이스북 공유 버튼 -->
+        <a href="" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;"><img src="img/icon-facebook.png"
+        title="페이스북" 
+        class="sharebtn_custom">
+        </a>
         
+        <!-- 트위터 공유 버튼 -->
+        <a href="" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;"><img src="img/icon-twitter.png" title="트위터" class="sharebtn_custom"
+        ></a>
+        
+        
+        <!-- 네이버 공유 버튼 -->
+        <a href="" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600,height=600'); return false;"><img src="img/블로그3.png" title="네이버" class="sharebtn_custom naverIcon"
+        ></a>
+        <!-- 카카오 공유 버튼 -->
+        <a href="" onclick="js:setShare();"><img src="img/icon-kakao.png" title="카카오톡" class="sharebtn_custom"
+          ></a>
 
+      </div>	
+  <!-- SNS버튼 끝 -->
+      <!-- <button type="button" class="kakao mt-3 py-2 px-3" onclick="">공유하기</button> -->
+    </section>
+  </div>
+  
+  
+  
+  <script src="./js/data.js" charset="utf-8"></script>
+  <script src="./js/start.js" charset="utf-8"></script>
+  <script src="./js/share.js" charset="utf-8"></script>
+  <script src="/js/navbar.js" defer></script>
+  <script src="/js/share.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script type="text/javascript" async> 
+    var url_default_ks = "https://story.kakao.com/share?url=";
+    var url_default_fb = "https://www.facebook.com/sharer/sharer.php?u=";
+    var url_default_tw_txt = "https://twitter.com/intent/tweet?text=";
+    var url_default_tw_url = "&url="; 
+    var url_default_band = "http://band.us/plugin/share?body=";
+    var url_route_band = "&route="; 
+    var url_default_naver = "http://share.naver.com/web/shareView.nhn?url="; 
+    var title_default_naver = "&title=";
 
-<!-- 개발자 section  -->
-<!-- 이하 푸터 -->
-                <footer class="footer-clean">
-                        <div class="container">
-                                <div class="row justify-content-center">
-                                <div class="col-sm-4 col-md-3 item">
-                                        <h3>About</h3>
-                                        <ul>
-                                        <li>동국대학교 멋쟁이사자차럼 운영진들이 만든 아기사자를 위한 서비스</li>
-                                        </ul>
-                                </div>
-                                <div class="col-sm-4 col-md-3 item">
-                                        <h3>developer</h3>
-                                        <ul>
-                                        <li>김수영,서희찬,정재혁,안석환,이여원</li>
-
-                                        </ul>
-                                </div>
-                                <div class="col-sm-4 col-md-3 item">
-                                        <h3>Ver 1.0</h3>
-                                        <li>2022.01.25</li>
-                                </div>
-                                <div class="col-lg-3 item social">
-                                        <a href="https://www.facebook.com/likelion.net"><i class="icon ion-social-facebook"></i></a>
-                                        <a href="https://www.instagram.com/likelion.official/"><i class="icon ion-social-instagram"></i></a>
-                                        <p class="copyright">Team with9/10° © 2022</p>
-                                </div>
-                                </div>
-                        </div>
-                </footer>
-
+    var url_this_page = location.href; 
+    
+    // var resultImg = document.querySelector('#resultImg'); 
+    // var resultAlt = resultImg.firstElementChild.alt; 
+    // url_this_page + 'result-' + resultAlt + '.html';
+    // console.log(url_this_page + 'result-' + resultImg.firstElementChild.alt + '.html');
+    var title_this_page = document.title;
+    var url_combine_ks = url_default_ks + url_this_page; 
+    var url_combine_fb = url_default_fb + url_this_page; 
+    var url_combine_tw = url_default_tw_txt + document.title + url_default_tw_url + url_this_page;
+    var url_combine_band = url_default_band + encodeURI(url_this_page)+ '%0A' + encodeURI(title_this_page)+'%0A' + '&route=tistory.com'; 
+    var url_combine_naver = url_default_naver + encodeURI(url_this_page) + title_default_naver + encodeURI(title_this_page); 
+</script>
 </body>
-
-</html>
-
-<!-- credit to https://epicbootstrap.com/snippets/footer-basic -->
-<script src="/js/navbar.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-</body>
-
 </html>
