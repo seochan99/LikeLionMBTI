@@ -176,11 +176,6 @@
           ></a>
           <a id="" href="javascript:clipboardShare()"><img src="img/url.png" title="url" class="sharebtn_custom "
             ></a>
-          <!-- 카카오 공유 버튼  모바일 -->
-        <!-- <a id="kakao-link-btn" href="javascript:kakaoShare()" class="sharebtn_custom ">
-    	<img src="img/icon-kakao.png" />
-        </a> -->
-
 
       </div>	
   <!-- SNS버튼 끝 -->
@@ -221,15 +216,15 @@
   function setShare(){
     var resultImg = document.querySelector('#resultImg'); 
     var resultAlt = resultImg.firstElementChild.alt; 
-    const shareTitle = '개발자 유형 테스트 결과'
+    const shareTitle = '나의 개발자 성향은 무엇일까? 나의 개발자 성향을 확인해보자!!'
     const shareDes=infoList[resultAlt].name;
-    const shareImage= 'https://likelion.netlify.app/' + 'img/image-' + resultAlt + '.png';
+    const shareImage= 'https://likelion.netlify.app/' + 'img/image-' + '초기1.jpeg';
     const shareURL = 'https://likelion.netlify.app/' + 'result-' + resultAlt + '.html';
     Kakao.Link.sendDefault({
         objectType: 'feed',
         content: {
-        title: shareTitle,
-        description: shareDes,
+        title: shareDes,
+        description: shareTitle,
         imageUrl: shareImage,
         link: {
             mobileWebUrl: shareURL,
@@ -248,44 +243,19 @@
     });
 
 }
-  function kakaoShare() {
-    // var resultImg = document.querySelector('#resultImg'); 
-    // var resultAlt = resultImg.firstElementChild.alt; 
-    const shareTitle = '개발자 유형 테스트 결과'
-    const shareDes=infoList[0].name;
-    const shareImage= 'https://likelion.netlify.app/' + 'img/image-' + 0 + '.png';
-    const shareURL = 'https://likelion.netlify.app/' + 'result-' + 0 + '.html';
-    Kakao.Link.sendDefault({
-        objectType: 'feed',
-        content: {
-        title: shareTitle,
-        description: shareDes,
-        imageUrl: shareImage,
-        link: {
-            mobileWebUrl: shareURL,
-            webUrl : shareURL,
-        },
-        },
-      buttons: [
-        {
-            title: '결과 확인하기',
-            link: {
-            mobileWebUrl: shareURL,
-            webUrl : shareURL
-            },
-        },
-        ],
-    })
-  }
 </script>
 <script type="text/javascript">
 	//  클립보드 복사하기
 	function clipboardShare() {
+    var resultImg = document.querySelector('#resultImg'); 
+    var resultAlt = resultImg.firstElementChild.alt; 
+    const shareURL = 'https://likelion.netlify.app/' + 'result-' + resultAlt + '.html';
+    
     	    // 1. 새로운 element 생성
     	    var tmpTextarea = document.createElement('textarea');
-            
             // 2. 해당 element에 복사하고자 하는 value 저장
-            tmpTextarea.value = "https://likelion.netlify.app/";
+            // tmpTextarea.value = "https://likelion.netlify.app/";
+            tmpTextarea.value =  'https://likelion.netlify.app/' + 'result-' + resultAlt + '.html';
             
             // 3. 해당 element를 화면에 안보이는 곳에 위치
             tmpTextarea.setAttribute('readonly', '');
