@@ -303,3 +303,31 @@ a.check{
     font-size: 1em;
   }
 }
+/*모바일 슬라이드 부분*/
+.schoolTitle_mobile{
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'GmarketSansMedium';
+  transform: translateY(-50px);
+  font-size: 30px;
+}
+.frame {
+  height: 250px;
+  overflow: hidden;
+}
+.frame ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.frame ul li {
+  float: left;
+  width: 150px;
+  height: 100%;
+  margin: 0 1px 0 0;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+}
