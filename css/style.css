@@ -304,6 +304,7 @@ a.check{
   }
 }
 /*모바일 슬라이드 부분*/
+/*참여대학 부분*/
 .schoolTitle_mobile{
   margin-bottom: 0px;
   text-align: center;
@@ -313,8 +314,9 @@ a.check{
   font-size: 30px;
 }
 .frame {
-  height: 250px;
+  height: 125px;
   overflow: hidden;
+  margin-bottom: 0px;
 }
 .frame ul {
   list-style: none;
@@ -324,18 +326,54 @@ a.check{
 }
 .frame ul li {
   float: left;
-  width: 150px;
+  width: 125px;
   height: 100%;
   margin: 0 1px 0 0;
   padding: 0;
   text-align: center;
   cursor: pointer;
 }
+.mobile{
+  margin-bottom: 300px;
+}
 @media (max-height:767px){
   .mobile{
-    margin-bottom: 150px;
+    margin-bottom: 300px;
   }
   .frame ul li{
     width: 125px;
   }
+  .frame_founded ul li{
+    width: 125px;
+  }
+}
+/*창업 스토리 부분*/
+.foundedTitle_mobile{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'GmarketSansMedium';
+  transform: translateY(0px);
+  font-size: 30px;
+}
+.frame_founded {
+  height: 125px;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+.frame_founded ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.frame_founded ul li {
+  float: left;
+  width: 125px;
+  height: 100%;
+  margin: 0 1px 0 0;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
 }
