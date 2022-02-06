@@ -118,9 +118,9 @@
                                 </button>
                         </div> 
                 </div>
-                <div style="text-align: center; font-weight: bold; font-size: 40px;  margin-bottom: 200px; font-family: 'GmarketSansMedium';">
+                <!-- <div style="text-align: center; font-weight: bold; font-size: 40px;  margin-bottom: 200px; font-family: 'GmarketSansMedium';">
                         창업 Story.
-                </div>
+                </div> -->
         </section>
 
         <!--모바일화면-->
@@ -174,8 +174,30 @@
                                 <li class="li"><img class="univ" src="./img/school/홍익대학교.png" alt=" " ><h5 class="univName">홍익대학교</h5></li>
                         </ul>
                 </div>
+                <div class="foundedTitle_mobile">
+                        창업 스토리
+                </div>
+                <div class="frame_founded">
+                        <ul class="slidee_founded">
+                                <li class="li"><img class="univ" src="./img/founded/눈누(출처_눈누).png"  alt=" " style="border-radius: 10px;" ><h5 class="univName">눈누</h5></li>
+                                <li class="li"><img class="univ" src="./img/founded/드리머리2(출처_드리머리).png" alt=" " style="border-radius: 10px;" ><h5 class="univName">드리머리2</h5></li>
+                                <li class="li"><img class="univ" src="./img/founded/비프로일레븐(출처_비프로일레븐).png" alt=" " style="border-radius: 10px;"  ><h5 class="univName">비프로일레븐</h5></li>
+                                <li class="li"><img class="univ" src="./img/founded/센트비(출처_센트비CI).jpeg" alt=" " style="border-radius: 10px;" ><h5 class="univName">센트비</h5></li>
+                                <li class="li"><img class="univ" src="./img/founded/슬리드(출처_슬리드).png" alt=" " style="border-radius: 10px;" ><h5 class="univName">슬리드</h5></li>
+                                <li class="li"><img class="univ" src="./img/founded/윙잇(출처_윙잇).png" alt=" " style="border-radius: 10px;" ><h5 class="univName">윙잇</h5></li>
+                                <li class="li"><img class="univ" src="./img/founded/인포크(출처_인포크).png" alt=" " style="border-radius: 10px;" ><h5 class="univName">인포크</h5></li>
+                                <li class="li"><img class="univ" src="./img/founded/자소설닷컴2(출처_자소설닷컴).jpg" alt=" " style="border-radius: 10px;" ><h5 class="univName">자소설닷컴2</h5></li>
+                                <li class="li"><img class="univ" src="./img/founded/천명(출처_천명).png" alt=" " style="border-radius: 10px;" ><h5 class="univName">천명</h5></li>
+                                <li class="li"><img class="univ" src="./img/founded/쿼타북(출처_쿼타북).png" alt=" " style="border-radius: 10px;" ><h5 class="univName">쿼타북</h5></li>
+                                <li class="li"><img class="univ" src="./img/founded/눈누(출처_눈누).png" alt=" " style="border-radius: 10px;" ><h5 class="univName">탈잉</h5></li>
+                                <li class="li"><img class="univ" src="./img/founded/티클(출처_티클).png" alt=" " style="border-radius: 10px;" ><h5 class="univName">티클</h5></li>
+                        </ul>
+                </div>
+                <div>
+                        <ul>
 
-                
+                        </ul>
+                </div>      
         </section>
         <script>
                 var slides = document.querySelector('.slides'),
@@ -208,13 +230,6 @@
                         }
                         });
         </script>
-        
-        <div>
-                창업스토리
-        </div>
-        
-
-
 <!-- 개발자 section  -->
 <!-- 이하 푸터 -->
 <footer class="footer-clean" >
@@ -272,6 +287,21 @@
                 // itemSelector:1
                 };
                 var frame = new Sly('.frame', options).init();
+        </script>
+        <script>
+                var on = document.getElementsByClassName("slidee_founded");
+                var options = {
+                horizontal: 1,
+                itemNav: 'centered', //basic , centered,
+                speed: 300,
+                smart: 1,
+                mouseDragging: 1,
+                touchDragging: 1,
+                activateMiddle: 1,
+                releaseSwing: 1,
+                // itemSelector:1
+                };
+                var frame = new Sly('.frame_founded', options).init();
         </script>
 </body>
 
