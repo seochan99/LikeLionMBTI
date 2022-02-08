@@ -112,9 +112,9 @@ const infoList = [
     descTitle3:'🦁 깔끔한 정리능력을 지닌 당신! 정보들을 직관적으로 구조화하고 구성하는 탁월한 능력이 있어요!',
     desc3:'어떤 내용을 다른 사람이 이해하기 쉽게 깔끔하게 정리하는 탁월한 능력을 가진 당신은 눈에 보기에도 이쁘고 편한 인터페이스를 효과적으로 설계할 수 있어요.',
     resultif:'🔍 UI/UX디자이너가 되려면?',
-    resultbasic1:'✔️기초언어: html, css, Figma',
-    resultbasic2:'✔️필수 지식: 웹 개념,boot strap, jQuery',
-    resultbasic3:'✔️고급 스킬: angular, react, vue.js',
+    resultbasic1:'✔️기초언어: html, css, javascript',
+    resultbasic2:'✔️필수 지식: UI/UX 지식,boot strap, jQuery',
+    resultbasic3:'✔️고급 스킬: Adobe XD, Figma, Sketch',
   },
   {
     nameIntro :"기획은 나한테 맡기라구~",
@@ -126,8 +126,8 @@ const infoList = [
     descTitle3:'🦁 당신은 다재다능한 사람으로 가지고 있는 능력들이 많아요.',
     desc3:'전체적 서비스 구현에 대해 소통하기 위해 기획자는 개발과 디자인에 대한 세부적인 구현 내용을 이해할 수 있는 전반적인 IT지식이 필요합니다.',
     resultif:'🔍 기획자가 되려면?',
-    resultbasic1:'✔️기초언어:html,css, Figma',
-    resultbasic2:'✔️필수 지식: 웹 개념,boot strap, 기획력',
-    resultbasic3:'✔️고급 스킬: 웹에디터, 그래픽소프트웨어, 고객관리 능력',
+    resultbasic1:'✔️기초언어:html, css, javascript',
+    resultbasic2:'✔️필수 지식: UI/UX 지식, 데이터 분석, 마켓팅',
+    resultbasic3:'✔️고급 스킬: protopie, GA, Adobe XD/Figma',
   }
 ]
