@@ -27,7 +27,6 @@
     grid-template-rows: repeat(auto-fill);
     grid-template-columns: repeat(auto-fill, minmax(50%, auto));
     text-align: left;
-    margin-bottom: 300px;
     margin-left: 2.5%;
 }
 .school_container_moblie img{
