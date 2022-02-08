@@ -376,3 +376,42 @@ a.check{
   text-align: center;
   cursor: pointer;
 }
+/*창업 스토리 모바일 화면*/
+.founded_container_moblie{
+  display:gird;
+  grid-template-rows: repeat(auto-fill);
+  grid-template-columns: repeat(auto-fill, minmax(50%, auto));
+  text-align: left;
+
+  margin-left: 2.5%;
+}
+.founded_mobile_img{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 2.5%;
+}
+.text_container{
+  display: inline-block;
+  width: 60%;
+  padding-top: 2%;
+}
+.founded_title{
+  font-weight: bold;
+  font-family: 'GmarketSansMedium';
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.founded_content{
+  font-weight: lighter;
+  font-size: 13px;
+
+}
+.founded_url a{
+  text-decoration: none;
+  color: gray;
+  font-size: 10px;
+}
+.founded_mobile_content_container{
+  margin-bottom: 50px;
+}
