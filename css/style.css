@@ -313,8 +313,6 @@ a.check{
   font-size: 30px;
 }
 .frame {
-  height: 125px;
-  overflow: hidden;
   margin-bottom: 0px;
 }
 .frame ul {
@@ -332,9 +330,7 @@ a.check{
   text-align: center;
   cursor: pointer;
 }
-.mobile{
-  margin-bottom: 300px;
-}
+
 @media (max-height:767px){
   .mobile{
     margin-bottom: 300px;
