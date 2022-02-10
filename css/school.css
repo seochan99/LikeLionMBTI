@@ -9,9 +9,9 @@
     font-size: large;
 }
 .school{
-    margin-bottom: 20px;
     padding: 20px;
     display: none;
+    border-bottom :1px solid rgba(0,0,0,.1);
 }
 .show{
     display:block;
