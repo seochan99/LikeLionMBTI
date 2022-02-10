@@ -210,6 +210,36 @@ li{list-style: none;}
 .controls span.prev{right:calc(100% + 50%);}
 .controls span.next{left:calc(100% + 50%);}
 
+.slides1{
+  position: absolute;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  left: 0; top: 0;
+  width: 200*42+30*42+'px';
+  height: 250px;
+  transition: left 0.5s ease-out;
+}
+.slides1 li{
+  float: left;
+  margin-right: 30px;
+}
+
+.controls1{
+  text-align: center;
+  margin-top: 25px;
+  border-radius: 10%;
+  background :rgba(105, 105, 103, 0.274);
+}
+.controls1 span{
+  
+  color:rgb(15, 15, 5);
+  font-weight:bold;
+  padding: 10px 20px;
+  margin-top: 10px;
+  
+}
+.controls1 span.prev1{right:calc(100% + 50%);}
+.controls1 span.next1{left:calc(100% + 50%);}
 .slide_div{
   width: 1500px;
   margin: 0 auto;
@@ -283,6 +313,12 @@ li{list-style: none;}
   width: 150px;
   height: 150px;
 }
+.univ1{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
 .univName{
   text-align: center; 
   border: 3px; 
@@ -304,7 +340,7 @@ li{list-style: none;}
 }
 .wap2{
   width: 450px;
-  height: 650px;
+  height: 700px;
   margin: 30px;
   background-color: #f8f8f8;
   border-radius: 5%;
@@ -313,7 +349,8 @@ li{list-style: none;}
 .box3{
   width: 350px;
   height: 350px;
-  margin: auto;  
+  margin-top: 20px;
+  margin: auto;
 }
 .box4{
   width: 430px;
