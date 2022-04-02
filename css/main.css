@@ -4,6 +4,7 @@
   text-align: center;
   border-radius: 20px;
 }
+
 @media (max-width: 900px){
   .testBoxTitle{
     font-size: 24px;
@@ -15,12 +16,15 @@
     width: 90%;
   }
 }
+
 p{
   font-size: 20px;
 }
+
 .jalan{
   font-family:yg-jalnan;
 }  
+
 .startButton{
   padding: 13px 50px; 
   border: 3px solid orange;
